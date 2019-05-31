@@ -1,0 +1,105 @@
+{
+  "_id": "page.details-of-final-order",
+  "_type": "page.form",
+  "body": "Tell us the basic details of the final order, providing more detail where needed.",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.details-of-final-order--number.auto_name__1",
+      "_type": "number",
+      "hint": "For example, £22,250",
+      "label": "### Lump sum",
+      "name": "lump_sum"
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.details-of-final-order--content",
+      "_type": "content",
+      "html": "### Periodical payments"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.details-of-final-order--number.auto_name__1--2",
+      "_type": "number",
+      "hint": "For example, £255.00",
+      "label": "Amount",
+      "name": "amount"
+    },
+    {
+      "_id": "page.details-of-final-order--radios.auto_name__1",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.details-of-final-order--radios.auto_name__1--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Weekly",
+          "value": "weekly"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.details-of-final-order--radios.auto_name__1--radio.auto_value__1--2",
+          "_type": "radio",
+          "label": "Monthly",
+          "value": "monthly"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.details-of-final-order--radios.auto_name__1--radio.auto_value__1--3",
+          "_type": "radio",
+          "label": "Quarterly (every 3 months)",
+          "value": "quarterly"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.details-of-final-order--radios.auto_name__1--radio.auto_value__1--4",
+          "_type": "radio",
+          "label": "Yearly",
+          "value": "yearly"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.details-of-final-order--radios.auto_name__1--radio.auto_value__1--5",
+          "_type": "radio",
+          "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
+            "_id": "page.details-of-final-order--radios.auto_name__1--radio.auto_value__1--5--textarea.auto_name__1",
+            "_type": "textarea",
+            "label": "**Say how often do you make these payments and why**",
+            "name": "how_often_for_payments",
+            "validation": {
+              "required": false
+            }
+          },
+          "label": "Other",
+          "value": "other"
+        }
+      ],
+      "legend": "**How often do you make these payments?**",
+      "name": "payment_frequency"
+    }
+  ],
+  "heading": "Details of the final order",
+  "url": "details-of-final-order"
+}

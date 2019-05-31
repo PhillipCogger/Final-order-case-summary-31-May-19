@@ -1,6 +1,21 @@
 {
   "_id": "page.duration-of-marriage",
   "_type": "page.form",
+  "body": "How long did your marriage, civil partnership or time living with your partner last?",
+  "components": [
+    {
+      "_id": "page.duration-of-marriage--number.auto_name__1",
+      "_type": "number",
+      "label": "**Years**",
+      "name": "Years"
+    },
+    {
+      "_id": "page.duration-of-marriage--number.auto_name__1--2",
+      "_type": "number",
+      "label": "**Months**",
+      "name": "months"
+    }
+  ],
   "heading": "Duration of marriage (including civil partnership or cohabitation)",
   "url": "duration-of-marriage-civil-partnership-cohabitation"
 }
