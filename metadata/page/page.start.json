@@ -1,7 +1,14 @@
 {
   "_id": "page.start",
   "_type": "page.start",
-  "body": "The Judge making the order is responsible for making sure that the CSD is:\r\n\r\n* properly and accurately completed\r\n* copies are uploaded on the court’s electronic file and the FRC Final Orders website",
+  "body": "### Before you start\r\n\r\n\r\nThe Judge making the order is responsible for making sure that the CSD is:\r\n\r\n* properly and accurately completed\r\n* copies are uploaded on the court’s electronic file and the FRC Final Orders website",
+  "extraComponents": [
+    {
+      "_id": "page.start--content",
+      "_type": "content",
+      "html": "Find out [how HM Courts and Tribunals Service uses personal information](https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service/about/personal-information-charter)."
+    }
+  ],
   "heading": "Case summary for a final order",
   "lede": "This document should accompany a final order made by a judge of the Financial Remedies Court.",
   "steps": [],
