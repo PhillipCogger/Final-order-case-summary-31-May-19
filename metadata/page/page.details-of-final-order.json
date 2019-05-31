@@ -1,19 +1,8 @@
 {
   "_id": "page.details-of-final-order",
   "_type": "page.form",
-  "body": "Tell us the basic details of the final order, providing more detail where needed.",
+  "body": "Tell us the basic details of the final order. Provide more detail where needed.",
   "components": [
-    {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "$field": true,
-      "_id": "page.details-of-final-order--number.auto_name__1",
-      "_type": "number",
-      "hint": "For example, £22,250",
-      "label": "### Lump sum",
-      "name": "lump_sum"
-    },
     {
       "$component": true,
       "$content": true,
@@ -34,6 +23,9 @@
       "name": "amount"
     },
     {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
       "_id": "page.details-of-final-order--radios.auto_name__1",
       "_type": "radios",
       "items": [
@@ -98,6 +90,75 @@
       ],
       "legend": "**How often do you make these payments?**",
       "name": "payment_frequency"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.details-of-final-order--textarea.auto_name__1",
+      "_type": "textarea",
+      "hint": "For example, you might have ten years left to make these payments.",
+      "label": "**How long will you make these payments for?**",
+      "name": "duration_of_payments"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "_id": "page.details-of-final-order--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__1",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__1--number.auto_name__1",
+            "_type": "number",
+            "hint": "For example, £22,250",
+            "label": "Amount",
+            "name": "amount"
+          },
+          "label": "Lump sum payments",
+          "name": "lump_sum_payments"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--radios.auto_name__1",
+            "_type": "radios",
+            "legend": "radio test text",
+            "name": "auto_name__1"
+          },
+          "label": "Regular payments",
+          "name": "regular_payments"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__3",
+          "_type": "checkbox",
+          "label": "Pension sharing",
+          "name": "pension_sharing"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__4",
+          "_type": "checkbox",
+          "label": "Other payments",
+          "name": "other_payments"
+        }
+      ]
     }
   ],
   "heading": "Details of the final order",
