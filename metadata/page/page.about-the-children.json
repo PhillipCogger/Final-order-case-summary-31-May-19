@@ -55,11 +55,11 @@
       "repeatable": true,
       "repeatableAdd": "Add another child",
       "repeatableDelete": "Remove a child",
-      "repeatableLede": "Tell us the date of birth for any children involved, and who they will live with after the final order.",
       "repeatableMaximum": 10
     }
   ],
   "heading": "About the children",
+  "lede": "Tell us the date of birth for any children involved, and who they will live with after the final order.",
   "show": {
     "identifier": "are_there_any_children_involved",
     "operator": "is",
