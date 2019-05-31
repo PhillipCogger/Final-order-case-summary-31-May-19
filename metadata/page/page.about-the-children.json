@@ -1,16 +1,66 @@
 {
   "_id": "page.about-the-children",
   "_type": "page.form",
-  "body": "Tell us the:\r\n\r\n* date of birth of any children involved\r\n* who they will be living with after the final order\r\n\r\nIf needed, you can add details for more than one child.",
   "components": [
     {
       "_id": "page.about-the-children--fieldset",
       "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.about-the-children--fieldset--date.auto_name__1",
+          "_type": "date",
+          "hint": "For example, 31 3 1980",
+          "label": "**Child's date of birth**",
+          "name": "auto_name__1"
+        },
+        {
+          "_id": "page.about-the-children--fieldset--radios.auto_name__2",
+          "_type": "radios",
+          "hint": "Choose only one option",
+          "items": [
+            {
+              "_id": "page.about-the-children--fieldset--radios.auto_name__2--radio.auto_value__1",
+              "_type": "radio",
+              "label": "Applicant",
+              "value": "applicant"
+            },
+            {
+              "_id": "page.about-the-children--fieldset--radios.auto_name__2--radio.auto_value__2",
+              "_type": "radio",
+              "label": "Respondent",
+              "value": "respondent"
+            },
+            {
+              "_id": "page.about-the-children--fieldset--radios.auto_name__2--radio.auto_value__3",
+              "_type": "radio",
+              "conditionalComponent": {
+                "_id": "page.about-the-children--fieldset--radios.auto_name__2--radio.auto_value__3--textarea.auto_name__2",
+                "_type": "textarea",
+                "label": "**Who will look after the child?**",
+                "name": "auto_name__2"
+              },
+              "label": "Neither",
+              "value": "neither"
+            }
+          ],
+          "legend": "**Who will the child be living with after the final order?**",
+          "name": "who_will_the_child_be_living_with_after_the_final_order"
+        }
+      ],
+      "legend": "Child",
       "model": "model_auto__1",
       "repeatable": true,
+      "repeatableAdd": "Add a child",
+      "repeatableDelete": "Remove a child",
+      "repeatableLede": "Tell us the date of birth for any children involved, and who they will be living with after the final order.",
       "repeatableMaximum": 10
     }
   ],
   "heading": "About the children",
+  "show": {
+    "identifier": "are_there_any_children_involved",
+    "operator": "is",
+    "value": "yes"
+  },
   "url": "about-the-children"
 }
