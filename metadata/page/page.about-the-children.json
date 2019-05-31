@@ -16,7 +16,7 @@
         {
           "_id": "page.about-the-children--fieldset--radios.auto_name__2",
           "_type": "radios",
-          "hint": "Choose only one option",
+          "hint": "Select one option.",
           "items": [
             {
               "_id": "page.about-the-children--fieldset--radios.auto_name__2--radio.auto_value__1",
@@ -55,7 +55,8 @@
       "repeatable": true,
       "repeatableAdd": "Add another child",
       "repeatableDelete": "Remove a child",
-      "repeatableMaximum": 10
+      "repeatableMaximum": 10,
+      "repeatableMinimum": 1
     }
   ],
   "heading": "About the children",
