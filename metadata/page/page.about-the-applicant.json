@@ -1,0 +1,56 @@
+{
+  "_id": "page.about-the-applicant",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.about-the-applicant--date.auto_name__1",
+      "_type": "date",
+      "hint": "For example, 31 3 1980",
+      "label": "**Date of birth**",
+      "name": "date_of_birth"
+    },
+    {
+      "_id": "page.about-the-applicant--content",
+      "_type": "content",
+      "html": "At the time of the final order, say whether the applicant:\r\n\r\n* has remarried, entered a civil partnership, or is living with a new partner\r\n* plans to do any of these things"
+    },
+    {
+      "_id": "page.about-the-applicant--radios.auto_name__1",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.about-the-applicant--radios.auto_name__1--radio.auto_value__1",
+          "_type": "radio",
+          "label": "has remarried or entered a civil partnership",
+          "value": "auto_value__1"
+        },
+        {
+          "_id": "page.about-the-applicant--radios.auto_name__1--radio.auto_value__2",
+          "_type": "radio",
+          "label": "is living with a new partner",
+          "value": "auto_value__2"
+        },
+        {
+          "_id": "page.about-the-applicant--radios.auto_name__1--radio.auto_value__3",
+          "_type": "radio",
+          "label": "plans to remarry, enter a civil partnership, or live with a new partner",
+          "value": "auto_value__3"
+        },
+        {
+          "_id": "page.about-the-applicant--radios.auto_name__1--radio.auto_value__4",
+          "_type": "radio",
+          "label": "has, or plans to do none of these things",
+          "value": "auto_value__4"
+        }
+      ],
+      "legend": "The applicant:",
+      "name": "auto_name__1"
+    }
+  ],
+  "heading": "About the applicant",
+  "url": "about-the-applicant"
+}

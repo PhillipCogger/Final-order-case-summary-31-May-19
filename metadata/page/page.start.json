@@ -11,6 +11,8 @@
   ],
   "heading": "Case summary for a final order",
   "lede": "This document should accompany a final order made by a judge of the Financial Remedies Court.",
-  "steps": [],
+  "steps": [
+    "page.about-the-applicant"
+  ],
   "url": "/"
 }
