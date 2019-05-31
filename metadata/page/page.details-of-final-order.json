@@ -110,8 +110,14 @@
           "$option": true,
           "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__3",
           "_type": "checkbox",
-          "label": "Pension sharing",
-          "name": "pension_sharing"
+          "conditionalComponent": {
+            "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__3--textarea.auto_name__3",
+            "_type": "textarea",
+            "label": "Provide details",
+            "name": "provide_details"
+          },
+          "label": "Pension sharing agreement",
+          "name": "pension_sharing_agreement"
         },
         {
           "$component": true,
@@ -119,6 +125,12 @@
           "$option": true,
           "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__4",
           "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__4--textarea.auto_name__3",
+            "_type": "textarea",
+            "label": "Provide details",
+            "name": "provide_details"
+          },
           "label": "Other payments",
           "name": "other_payments"
         }
