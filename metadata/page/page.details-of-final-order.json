@@ -82,7 +82,7 @@
                     "conditionalComponent": {
                       "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--radios.auto_name__2--radio.auto_value__4--textarea.auto_name__1",
                       "_type": "textarea",
-                      "label": "Say how often you make these payments and why",
+                      "label": "Say how often you make these payments.",
                       "name": "how_often_payments_and_why"
                     },
                     "label": "Other",
@@ -91,6 +91,13 @@
                 ],
                 "legend": "**How often do you make these payments?**",
                 "name": "auto_name__2"
+              },
+              {
+                "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--textarea.auto_name__1",
+                "_type": "textarea",
+                "hint": "For example, the next 10 years to cover school fees for my children.",
+                "label": "**How long will you make these payments for?**",
+                "name": "auto_name__1"
               }
             ]
           },
