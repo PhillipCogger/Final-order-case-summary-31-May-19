@@ -13,7 +13,9 @@
   "lede": "This document should accompany a final order made by a judge of the Financial Remedies Court.",
   "steps": [
     "page.about-the-applicant",
-    "page.about-the-respondent"
+    "page.about-the-respondent",
+    "page.any-children-involved",
+    "page.about-the-children"
   ],
   "url": "/"
 }

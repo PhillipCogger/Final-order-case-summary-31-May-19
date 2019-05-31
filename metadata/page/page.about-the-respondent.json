@@ -22,25 +22,25 @@
           "_id": "page.about-the-respondent--radios.auto_name__2--radio.auto_value__5",
           "_type": "radio",
           "label": "has remarried or entered a civil partnership",
-          "value": "auto_value__5"
+          "value": "remarried_or_civil_partnership"
         },
         {
           "_id": "page.about-the-respondent--radios.auto_name__2--radio.auto_value__6",
           "_type": "radio",
           "label": "is living with a new partner",
-          "value": "auto_value__6"
+          "value": "living_with_new_partner"
         },
         {
           "_id": "page.about-the-respondent--radios.auto_name__2--radio.auto_value__7",
           "_type": "radio",
           "label": "plans to remarry, enter a civil partnership, or live with a new partner",
-          "value": "auto_value__7"
+          "value": "plans_remarry_civil_partnership_live_new_partner"
         },
         {
           "_id": "page.about-the-respondent--radios.auto_name__2--radio.auto_value__8",
           "_type": "radio",
           "label": "hasn't, or doesn't plan to do any of these things",
-          "value": "auto_value__8"
+          "value": "none_of_above"
         }
       ],
       "legend": "The respondent:",

@@ -26,25 +26,25 @@
           "_id": "page.about-the-applicant--radios.auto_name__1--radio.auto_value__1",
           "_type": "radio",
           "label": "has remarried or entered a civil partnership",
-          "value": "auto_value__1"
+          "value": "remarried_or_civil_partnership"
         },
         {
           "_id": "page.about-the-applicant--radios.auto_name__1--radio.auto_value__2",
           "_type": "radio",
           "label": "is living with a new partner",
-          "value": "auto_value__2"
+          "value": "living_with_new_partner"
         },
         {
           "_id": "page.about-the-applicant--radios.auto_name__1--radio.auto_value__3",
           "_type": "radio",
           "label": "plans to remarry, enter a civil partnership, or live with a new partner",
-          "value": "auto_value__3"
+          "value": "plans_remarry_civil_partnership_live_new_partner"
         },
         {
           "_id": "page.about-the-applicant--radios.auto_name__1--radio.auto_value__4",
           "_type": "radio",
           "label": "hasn't, or doesn't plan to do any of these things",
-          "value": "auto_value__4"
+          "value": "none_of_above"
         }
       ],
       "legend": "The applicant:",

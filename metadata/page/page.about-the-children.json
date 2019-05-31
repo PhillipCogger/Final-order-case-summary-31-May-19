@@ -1,0 +1,16 @@
+{
+  "_id": "page.about-the-children",
+  "_type": "page.form",
+  "body": "Tell us the:\r\n\r\n* date of birth of any children involved\r\n* who they will be living with after the final order\r\n\r\nIf needed, you can add details for more than one child.",
+  "components": [
+    {
+      "_id": "page.about-the-children--fieldset",
+      "_type": "fieldset",
+      "model": "model_auto__1",
+      "repeatable": true,
+      "repeatableMaximum": 10
+    }
+  ],
+  "heading": "About the children",
+  "url": "about-the-children"
+}
