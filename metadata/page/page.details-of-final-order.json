@@ -5,105 +5,6 @@
   "components": [
     {
       "$component": true,
-      "$content": true,
-      "$definition": true,
-      "_id": "page.details-of-final-order--content",
-      "_type": "content",
-      "html": "### Periodical payments"
-    },
-    {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "$field": true,
-      "_id": "page.details-of-final-order--number.auto_name__1--2",
-      "_type": "number",
-      "hint": "For example, £255.00",
-      "label": "Amount",
-      "name": "amount"
-    },
-    {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "_id": "page.details-of-final-order--radios.auto_name__1",
-      "_type": "radios",
-      "items": [
-        {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.details-of-final-order--radios.auto_name__1--radio.auto_value__1",
-          "_type": "radio",
-          "label": "Weekly",
-          "value": "weekly"
-        },
-        {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.details-of-final-order--radios.auto_name__1--radio.auto_value__1--2",
-          "_type": "radio",
-          "label": "Monthly",
-          "value": "monthly"
-        },
-        {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.details-of-final-order--radios.auto_name__1--radio.auto_value__1--3",
-          "_type": "radio",
-          "label": "Quarterly (every 3 months)",
-          "value": "quarterly"
-        },
-        {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.details-of-final-order--radios.auto_name__1--radio.auto_value__1--4",
-          "_type": "radio",
-          "label": "Yearly",
-          "value": "yearly"
-        },
-        {
-          "$component": true,
-          "$definition": true,
-          "$option": true,
-          "_id": "page.details-of-final-order--radios.auto_name__1--radio.auto_value__1--5",
-          "_type": "radio",
-          "conditionalComponent": {
-            "$component": true,
-            "$control": true,
-            "$definition": true,
-            "$field": true,
-            "_id": "page.details-of-final-order--radios.auto_name__1--radio.auto_value__1--5--textarea.auto_name__1",
-            "_type": "textarea",
-            "label": "**Say how often do you make these payments and why**",
-            "name": "how_often_for_payments",
-            "validation": {
-              "required": false
-            }
-          },
-          "label": "Other",
-          "value": "other"
-        }
-      ],
-      "legend": "**How often do you make these payments?**",
-      "name": "payment_frequency"
-    },
-    {
-      "$component": true,
-      "$control": true,
-      "$definition": true,
-      "$field": true,
-      "_id": "page.details-of-final-order--textarea.auto_name__1",
-      "_type": "textarea",
-      "hint": "For example, you might have ten years left to make these payments.",
-      "label": "**How long will you make these payments for?**",
-      "name": "duration_of_payments"
-    },
-    {
-      "$component": true,
       "$control": true,
       "$definition": true,
       "_id": "page.details-of-final-order--checkboxes",
@@ -116,10 +17,14 @@
           "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__1",
           "_type": "checkbox",
           "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
             "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__1--number.auto_name__1",
             "_type": "number",
             "hint": "For example, £22,250",
-            "label": "Amount",
+            "label": "**Amount**",
             "name": "amount"
           },
           "label": "Lump sum payments",
@@ -132,10 +37,62 @@
           "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2",
           "_type": "checkbox",
           "conditionalComponent": {
-            "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--radios.auto_name__1",
-            "_type": "radios",
-            "legend": "radio test text",
-            "name": "auto_name__1"
+            "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group",
+            "_type": "group",
+            "components": [
+              {
+                "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--number.auto_name__1",
+                "_type": "number",
+                "hint": "For example, £250.55",
+                "label": "**How much do you pay**?",
+                "name": "how_much_do_you_pay"
+              },
+              {
+                "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--radios.auto_name__2",
+                "_type": "radios",
+                "items": [
+                  {
+                    "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--radios.auto_name__2--radio.auto_value__1",
+                    "_type": "radio",
+                    "hasDivider": false,
+                    "label": "Weekly",
+                    "value": "Weekly"
+                  },
+                  {
+                    "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--radios.auto_name__2--radio.auto_value__1--2",
+                    "_type": "radio",
+                    "label": "Monthly",
+                    "value": "monthly"
+                  },
+                  {
+                    "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--radios.auto_name__2--radio.auto_value__2",
+                    "_type": "radio",
+                    "label": "Quarterly (every 3 months)",
+                    "value": "quarterly"
+                  },
+                  {
+                    "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--radios.auto_name__2--radio.auto_value__3",
+                    "_type": "radio",
+                    "label": "Yearly",
+                    "value": "yearly"
+                  },
+                  {
+                    "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--radios.auto_name__2--radio.auto_value__4",
+                    "_type": "radio",
+                    "conditionalComponent": {
+                      "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--radios.auto_name__2--radio.auto_value__4--textarea.auto_name__1",
+                      "_type": "textarea",
+                      "label": "Say how often you make these payments and why",
+                      "name": "how_often_payments_and_why"
+                    },
+                    "label": "Other",
+                    "value": "other"
+                  }
+                ],
+                "legend": "**How often do you make these payments?**",
+                "name": "auto_name__2"
+              }
+            ]
           },
           "label": "Regular payments",
           "name": "regular_payments"
@@ -158,7 +115,8 @@
           "label": "Other payments",
           "name": "other_payments"
         }
-      ]
+      ],
+      "legend": "**Types of payments made**"
     }
   ],
   "heading": "Details of the final order",
