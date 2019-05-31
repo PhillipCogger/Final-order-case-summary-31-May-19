@@ -43,12 +43,12 @@
         {
           "_id": "page.about-the-applicant--radios.auto_name__1--radio.auto_value__4",
           "_type": "radio",
-          "label": "has, or plans to do none of these things",
+          "label": "hasn't, or doesn't plan to do any of these things",
           "value": "auto_value__4"
         }
       ],
       "legend": "The applicant:",
-      "name": "auto_name__1"
+      "name": "applicant_current_relationship"
     }
   ],
   "heading": "About the applicant",

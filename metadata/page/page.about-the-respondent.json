@@ -1,0 +1,52 @@
+{
+  "_id": "page.about-the-respondent",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.about-the-respondent--date.auto_name__2",
+      "_type": "date",
+      "hint": "For example, 31 3 1980",
+      "label": "**Date of birth**",
+      "name": "date_of_birth"
+    },
+    {
+      "_id": "page.about-the-respondent--content",
+      "_type": "content",
+      "html": "At the time of the final order, say whether the respondent:\r\n\r\n* has remarried, entered a civil partnership, or is living with a new partner\r\n* plans to do any of these things"
+    },
+    {
+      "_id": "page.about-the-respondent--radios.auto_name__2",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.about-the-respondent--radios.auto_name__2--radio.auto_value__5",
+          "_type": "radio",
+          "label": "has remarried or entered a civil partnership",
+          "value": "auto_value__5"
+        },
+        {
+          "_id": "page.about-the-respondent--radios.auto_name__2--radio.auto_value__6",
+          "_type": "radio",
+          "label": "is living with a new partner",
+          "value": "auto_value__6"
+        },
+        {
+          "_id": "page.about-the-respondent--radios.auto_name__2--radio.auto_value__7",
+          "_type": "radio",
+          "label": "plans to remarry, enter a civil partnership, or live with a new partner",
+          "value": "auto_value__7"
+        },
+        {
+          "_id": "page.about-the-respondent--radios.auto_name__2--radio.auto_value__8",
+          "_type": "radio",
+          "label": "hasn't, or doesn't plan to do any of these things",
+          "value": "auto_value__8"
+        }
+      ],
+      "legend": "The respondent:",
+      "name": "respondent_current_relationship"
+    }
+  ],
+  "heading": "About the respondent",
+  "url": "about-the-respondent"
+}
