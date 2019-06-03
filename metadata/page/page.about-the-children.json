@@ -34,14 +34,10 @@
               "_id": "page.about-the-children--fieldset--radios.auto_name__2--radio.auto_value__3",
               "_type": "radio",
               "conditionalComponent": {
-                "_id": "page.about-the-children--fieldset--radios.auto_name__2--radio.auto_value__3--textarea.auto_name__2",
+                "_id": "page.about-the-children--fieldset--radios.auto_name__2--radio.auto_value__3--textarea.auto_name__3",
                 "_type": "textarea",
-                "label": "**Who will the child live with?**",
-                "name": "who_will_the_child_live_with",
-                "show": true,
-                "validation": {
-                  "required": true
-                }
+                "label": "Who will the child live with?",
+                "name": "who_will_the_child_live_with"
               },
               "label": "Neither",
               "show": true,
