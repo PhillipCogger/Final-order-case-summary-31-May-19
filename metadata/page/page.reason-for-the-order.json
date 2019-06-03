@@ -16,8 +16,26 @@
               {
                 "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__1--checkboxes--checkbox.auto_name__3",
                 "_type": "checkbox",
-                "conditionalComponent": "{\r\n  \"_id\": \"page.reason-for-the-order--radios.auto_name__3--radio.auto_value__1--checkboxes--checkbox.auto_name__3--checkboxes\",\r\n  \"_type\": \"checkboxes\"\r\n}",
-                "name": "auto_name__3"
+                "conditionalComponent": {
+                  "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__1--checkboxes--checkbox.auto_name__3--textarea.auto_name__5",
+                  "_type": "textarea",
+                  "label": "**Provide more information**",
+                  "name": "provide_more_information"
+                },
+                "label": "Reason X",
+                "name": "reason_x"
+              },
+              {
+                "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__1--checkboxes--checkbox.auto_name__4",
+                "_type": "checkbox",
+                "conditionalComponent": {
+                  "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__1--checkboxes--checkbox.auto_name__4--textarea.auto_name__3",
+                  "_type": "textarea",
+                  "label": "**Provide more information**",
+                  "name": "provide_more_information"
+                },
+                "label": "Reason Y",
+                "name": "reason_y"
               }
             ]
           },
@@ -27,6 +45,42 @@
         {
           "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__2",
           "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__2--checkboxes",
+            "_type": "checkboxes",
+            "items": [
+              {
+                "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__2--checkboxes--checkbox.auto_name__3",
+                "_type": "checkbox",
+                "label": "Housing need",
+                "name": "housing_need"
+              },
+              {
+                "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__2--checkboxes--checkbox.auto_name__3--2",
+                "_type": "checkbox",
+                "label": "Earning capacity",
+                "name": "earning_capacity"
+              },
+              {
+                "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__2--checkboxes--checkbox.auto_name__3--3",
+                "_type": "checkbox",
+                "label": "Agreement between parties",
+                "name": "agreement_between_parties"
+              },
+              {
+                "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__2--checkboxes--checkbox.auto_name__3--4",
+                "_type": "checkbox",
+                "conditionalComponent": {
+                  "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__2--checkboxes--checkbox.auto_name__3--4--textarea.auto_name__3",
+                  "_type": "textarea",
+                  "label": "**Provide reason**",
+                  "name": "provide_reason"
+                },
+                "label": "Another reason",
+                "name": "another_reason"
+              }
+            ]
+          },
           "label": "Unequal division of assets",
           "value": "unequal_division_of_assets"
         }
