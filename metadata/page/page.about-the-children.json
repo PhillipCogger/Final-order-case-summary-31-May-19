@@ -40,7 +40,7 @@
                 "name": "who_will_the_child_live_with",
                 "show": true,
                 "validation": {
-                  "required": false
+                  "required": true
                 }
               },
               "label": "Neither",
