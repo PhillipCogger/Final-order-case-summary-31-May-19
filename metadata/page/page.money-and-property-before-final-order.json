@@ -1,0 +1,77 @@
+{
+  "_id": "page.money-and-property-before-final-order",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$fieldset": true,
+      "$grouping": true,
+      "_id": "page.money-and-property-before-final-order--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.money-and-property-before-final-order--fieldset--number.auto_name__3",
+          "_type": "number",
+          "hint": "For example, £150,000",
+          "label": "**Applicant**",
+          "name": "applicant"
+        },
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.money-and-property-before-final-order--fieldset--number.auto_name__3--2",
+          "_type": "number",
+          "hint": "For example, £150,000",
+          "label": "**Respondent**",
+          "name": "respondent"
+        }
+      ],
+      "legend": "Property (before mortgage)",
+      "model": "model_auto__2",
+      "repeatable": true,
+      "repeatableAdd": "Add another property",
+      "repeatableDelete": "Remove a property",
+      "repeatableMaximum": 10
+    },
+    {
+      "$component": true,
+      "$content": true,
+      "$definition": true,
+      "_id": "page.money-and-property-before-final-order--content",
+      "_type": "content",
+      "html": "### Savings and investments"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.money-and-property-before-final-order--number.auto_name__3",
+      "_type": "number",
+      "hint": "For example, savings, investments, shares, money in bank accounts",
+      "label": "**Applicant**",
+      "name": "applicant"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.money-and-property-before-final-order--number.auto_name__4",
+      "_type": "number",
+      "hint": "For example, savings, investments, shares, money in bank accounts",
+      "label": "**Respondent**",
+      "name": "respondent"
+    }
+  ],
+  "heading": "Money and property before final order",
+  "url": "money-and-property-before-final-order"
+}
