@@ -17,7 +17,8 @@
     "page.any-children-involved",
     "page.about-the-children",
     "page.duration-of-marriage",
-    "page.details-of-final-order"
+    "page.details-of-final-order",
+    "page.reason-for-the-order"
   ],
   "url": "/"
 }

@@ -1,0 +1,40 @@
+{
+  "_id": "page.reason-for-the-order",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.reason-for-the-order--radios.auto_name__3",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__1",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__1--checkboxes",
+            "_type": "checkboxes",
+            "items": [
+              {
+                "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__1--checkboxes--checkbox.auto_name__3",
+                "_type": "checkbox",
+                "conditionalComponent": "{\r\n  \"_id\": \"page.reason-for-the-order--radios.auto_name__3--radio.auto_value__1--checkboxes--checkbox.auto_name__3--checkboxes\",\r\n  \"_type\": \"checkboxes\"\r\n}",
+                "name": "auto_name__3"
+              }
+            ]
+          },
+          "label": "Equal division of assets",
+          "value": "equal_division_of_assets"
+        },
+        {
+          "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__2",
+          "_type": "radio",
+          "label": "Unequal division of assets",
+          "value": "unequal_division_of_assets"
+        }
+      ],
+      "legend": "Say why the final order was made. Select all options that apply, providing more detail if needed.",
+      "name": "why-the-order-was-made"
+    }
+  ],
+  "heading": "Reason for the order",
+  "url": "reason-for-the-order"
+}
