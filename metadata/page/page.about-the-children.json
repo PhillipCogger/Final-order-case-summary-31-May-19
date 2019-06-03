@@ -10,8 +10,8 @@
           "_id": "page.about-the-children--fieldset--date.auto_name__1",
           "_type": "date",
           "hint": "For example, 31 3 1980",
-          "label": "**Child's date of birth**",
-          "name": "child_date_of_birth"
+          "label": "**Date of birth**",
+          "name": "date_of_birth"
         },
         {
           "_id": "page.about-the-children--fieldset--radios.auto_name__2",
