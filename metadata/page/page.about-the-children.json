@@ -38,11 +38,13 @@
                 "_type": "textarea",
                 "label": "**Who will the child live with?**",
                 "name": "who_will_the_child_live_with",
+                "show": true,
                 "validation": {
                   "required": false
                 }
               },
               "label": "Neither",
+              "show": true,
               "value": "neither"
             }
           ],
