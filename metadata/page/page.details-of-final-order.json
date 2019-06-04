@@ -97,7 +97,10 @@
                 "_type": "textarea",
                 "hint": "For example, the next 10 years to cover school fees for my children.",
                 "label": "How long will you make these payments for?",
-                "name": "auto_name__1"
+                "name": "auto_name__1",
+                "validation": {
+                  "required": false
+                }
               }
             ]
           },
