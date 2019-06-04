@@ -27,7 +27,7 @@
             "label": "Amount",
             "name": "amount",
             "validation": {
-              "required": false
+              "required": true
             }
           },
           "label": "Lump sum payments",
@@ -50,7 +50,7 @@
                 "label": "How much do you pay?",
                 "name": "how_much_do_you_pay",
                 "validation": {
-                  "required": false
+                  "required": true
                 }
               },
               {
@@ -105,7 +105,7 @@
                 "label": "How long will you make these payments for?",
                 "name": "auto_name__1",
                 "validation": {
-                  "required": false
+                  "required": true
                 }
               }
             ]

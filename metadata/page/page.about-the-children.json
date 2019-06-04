@@ -39,7 +39,7 @@
                 "label": "Who will the child live with?",
                 "name": "who_will_the_child_live_with",
                 "validation": {
-                  "required": false
+                  "required": true
                 }
               },
               "label": "Neither",
