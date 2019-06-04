@@ -102,6 +102,11 @@
       "_type": "number",
       "label": "**Respondent**",
       "name": "respondent"
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--content--4",
+      "_type": "content",
+      "html": "### Income\r\nGive your total monthly income after deductions for tax and NI contributions."
     }
   ],
   "heading": "Money and property before final order",
