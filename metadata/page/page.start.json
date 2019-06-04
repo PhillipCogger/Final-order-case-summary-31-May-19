@@ -22,7 +22,9 @@
     "page.money-and-property-before-final-order",
     "page.loans-and-debts",
     "page.pensions",
-    "page.income"
+    "page.income",
+    "page.benefits-including-child-support",
+    "page.other-monthly-income"
   ],
   "url": "/"
 }

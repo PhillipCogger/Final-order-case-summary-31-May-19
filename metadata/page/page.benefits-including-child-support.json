@@ -1,0 +1,43 @@
+{
+  "_id": "page.benefits-including-child-support",
+  "_type": "page.form",
+  "body": "Give the total amount for:\r\n\r\n* state benefits\r\n* Child Support\r\n* regular payments which are not part of Child Support",
+  "components": [
+    {
+      "_id": "page.benefits-including-child-support--content",
+      "_type": "content",
+      "html": "### Benefits"
+    },
+    {
+      "_id": "page.benefits-including-child-support--number.auto_name__3",
+      "_type": "number",
+      "label": "**Applicant**",
+      "name": "applicant"
+    },
+    {
+      "_id": "page.benefits-including-child-support--number.auto_name__4",
+      "_type": "number",
+      "label": "**Respondent**",
+      "name": "respondent"
+    },
+    {
+      "_id": "page.benefits-including-child-support--content--2",
+      "_type": "content",
+      "html": "### Child Support\r\nInclude regular payments which are not part of Child Support."
+    },
+    {
+      "_id": "page.benefits-including-child-support--number.auto_name__3--2",
+      "_type": "number",
+      "label": "**Applicant**",
+      "name": "applicant"
+    },
+    {
+      "_id": "page.benefits-including-child-support--number.auto_name__4--2",
+      "_type": "number",
+      "label": "**Respondent**",
+      "name": "respondent"
+    }
+  ],
+  "heading": "Benefits (including Child Support)",
+  "url": "benefits-including-child-support"
+}

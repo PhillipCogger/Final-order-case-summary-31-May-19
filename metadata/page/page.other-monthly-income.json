@@ -1,0 +1,21 @@
+{
+  "_id": "page.other-monthly-income",
+  "_type": "page.form",
+  "body": "Include any other monthly income.",
+  "components": [
+    {
+      "_id": "page.other-monthly-income--number.auto_name__3",
+      "_type": "number",
+      "label": "**Applicant**",
+      "name": "applicant"
+    },
+    {
+      "_id": "page.other-monthly-income--number.auto_name__4",
+      "_type": "number",
+      "label": "**Respondent**",
+      "name": "respondent"
+    }
+  ],
+  "heading": "Other monthly income",
+  "url": "other-monthly-income"
+}
