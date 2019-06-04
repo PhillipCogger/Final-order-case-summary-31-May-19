@@ -107,6 +107,52 @@
       "_id": "page.money-and-property-before-final-order--content--4",
       "_type": "content",
       "html": "### Income\r\nGive your total monthly income after deductions for tax and NI contributions."
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--number.auto_name__3--4",
+      "_type": "number",
+      "label": "**Applicant**",
+      "name": "applicant"
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--number.auto_name__3--5",
+      "_type": "number",
+      "label": "**Respondent**",
+      "name": "respondent"
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--content--5",
+      "_type": "content",
+      "html": "### Monthly investment income"
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--number.auto_name__3--6",
+      "_type": "number",
+      "label": "**Applicant**",
+      "name": "applicant"
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--number.auto_name__4--4",
+      "_type": "number",
+      "label": "**Respondent**",
+      "name": "respondent"
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--content--6",
+      "_type": "content",
+      "html": "### Monthly benefits"
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--number.auto_name__3--7",
+      "_type": "number",
+      "label": "**Applicant**",
+      "name": "applicant"
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--number.auto_name__4--5",
+      "_type": "number",
+      "label": "**Respondent**",
+      "name": "respondent"
     }
   ],
   "heading": "Money and property before final order",
