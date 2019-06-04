@@ -1,0 +1,44 @@
+{
+  "_id": "page.income",
+  "_type": "page.form",
+  "body": "Include income from any:\r\n\r\n* investments\r\n* benefits\r\n* Child Support\r\n* monthly payments which are not part of Child Support\r\n* other monthly income",
+  "components": [
+    {
+      "_id": "page.income--content",
+      "_type": "content",
+      "html": "### Monthly earned income (wages)"
+    },
+    {
+      "_id": "page.income--number.auto_name__3",
+      "_type": "number",
+      "label": "**Applicant**",
+      "name": "applicant"
+    },
+    {
+      "_id": "page.income--number.auto_name__4",
+      "_type": "number",
+      "label": "**Respondent**",
+      "name": "respondent"
+    },
+    {
+      "_id": "page.income--content--2",
+      "_type": "content",
+      "html": "### Income from investments"
+    },
+    {
+      "_id": "page.income--number.auto_name__3--2",
+      "_type": "number",
+      "label": "**Applicant**",
+      "name": "applicant"
+    },
+    {
+      "_id": "page.income--number.auto_name__3--3",
+      "_type": "number",
+      "label": "**Respondent**",
+      "name": "respondent"
+    }
+  ],
+  "heading": "Income",
+  "lede": "Give your total monthly income after deductions for tax and NI contributions immediately before the final order was made.",
+  "url": "income"
+}

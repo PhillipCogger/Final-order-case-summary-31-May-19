@@ -153,8 +153,25 @@
       "_type": "number",
       "label": "**Respondent**",
       "name": "respondent"
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--content--7",
+      "_type": "content",
+      "html": "### Monthly Child Support\r\nInclude periodical payments paid which are not part of Child Support."
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--number.auto_name__3--8",
+      "_type": "number",
+      "label": "**Applicant**",
+      "name": "applicant"
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--number.auto_name__3--9",
+      "_type": "number",
+      "label": "**Respondent**",
+      "name": "respondent"
     }
   ],
-  "heading": "Money and property before final order",
+  "heading": "Money and property",
   "url": "money-and-property-before-final-order"
 }

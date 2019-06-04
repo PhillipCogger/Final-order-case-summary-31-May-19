@@ -1,0 +1,21 @@
+{
+  "_id": "page.pensions",
+  "_type": "page.form",
+  "body": "Include the cash equivalent value of pension funds.",
+  "components": [
+    {
+      "_id": "page.pensions--number.auto_name__3",
+      "_type": "number",
+      "label": "**Applicant**",
+      "name": "applicant"
+    },
+    {
+      "_id": "page.pensions--number.auto_name__4",
+      "_type": "number",
+      "label": "**Respondent**",
+      "name": "respondent"
+    }
+  ],
+  "heading": "Pensions",
+  "url": "pensions"
+}
