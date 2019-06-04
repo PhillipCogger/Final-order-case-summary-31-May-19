@@ -17,18 +17,16 @@
           "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__1",
           "_type": "checkbox",
           "conditionalComponent": {
-            "$component": true,
-            "$control": true,
-            "$definition": true,
-            "$field": true,
-            "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__1--number.auto_name__1",
-            "_type": "number",
-            "hint": "For example, £22,250",
-            "label": "Amount",
-            "name": "amount",
-            "validation": {
-              "required": true
-            }
+            "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__1--group",
+            "_type": "group",
+            "components": [
+              {
+                "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__1--group--number.auto_name__3",
+                "_type": "number",
+                "label": "**Second amount**",
+                "name": "second_amount"
+              }
+            ]
           },
           "label": "Lump sum payments",
           "name": "lump_sum_payments"
