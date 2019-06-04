@@ -11,13 +11,13 @@
     {
       "_id": "page.income--number.auto_name__3",
       "_type": "number",
-      "label": "**Applicant**",
+      "label": "Applicant",
       "name": "applicant"
     },
     {
       "_id": "page.income--number.auto_name__4",
       "_type": "number",
-      "label": "**Respondent**",
+      "label": "Respondent",
       "name": "respondent"
     },
     {
@@ -28,13 +28,13 @@
     {
       "_id": "page.income--number.auto_name__3--2",
       "_type": "number",
-      "label": "**Applicant**",
+      "label": "Applicant",
       "name": "applicant"
     },
     {
       "_id": "page.income--number.auto_name__3--3",
       "_type": "number",
-      "label": "**Respondent**",
+      "label": "Respondent",
       "name": "respondent"
     }
   ],

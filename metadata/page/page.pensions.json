@@ -6,13 +6,13 @@
     {
       "_id": "page.pensions--number.auto_name__3",
       "_type": "number",
-      "label": "**Applicant**",
+      "label": "Applicant",
       "name": "applicant"
     },
     {
       "_id": "page.pensions--number.auto_name__4",
       "_type": "number",
-      "label": "**Respondent**",
+      "label": "Respondent",
       "name": "respondent"
     }
   ],

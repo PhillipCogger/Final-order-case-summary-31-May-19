@@ -24,7 +24,7 @@
             "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__1--number.auto_name__1",
             "_type": "number",
             "hint": "For example, £22,250",
-            "label": "**Amount**",
+            "label": "Amount",
             "name": "amount"
           },
           "label": "Lump sum payments",
@@ -44,7 +44,7 @@
                 "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--number.auto_name__1",
                 "_type": "number",
                 "hint": "For example, £250.55",
-                "label": "**How much do you pay**?",
+                "label": "How much do you pay?",
                 "name": "how_much_do_you_pay"
               },
               {
@@ -89,14 +89,14 @@
                     "value": "other"
                   }
                 ],
-                "legend": "**How often do you make these payments?**",
+                "legend": "How often do you make these payments?",
                 "name": "auto_name__2"
               },
               {
                 "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--textarea.auto_name__1",
                 "_type": "textarea",
                 "hint": "For example, the next 10 years to cover school fees for my children.",
-                "label": "**How long will you make these payments for?**",
+                "label": "How long will you make these payments for?",
                 "name": "auto_name__1"
               }
             ]
@@ -135,7 +135,7 @@
           "name": "other_payments"
         }
       ],
-      "legend": "**Types of payments made**"
+      "legend": "Types of payments made"
     }
   ],
   "heading": "Details of the final order",

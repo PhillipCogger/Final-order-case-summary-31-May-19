@@ -6,7 +6,7 @@
       "_id": "page.about-the-respondent--date.auto_name__2",
       "_type": "date",
       "hint": "For example, 31 3 1980",
-      "label": "**Date of birth**",
+      "label": "Date of birth",
       "name": "respondent_date_of_birth"
     },
     {

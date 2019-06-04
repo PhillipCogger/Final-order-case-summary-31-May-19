@@ -24,7 +24,9 @@
     "page.pensions",
     "page.income",
     "page.benefits-including-child-support",
-    "page.other-monthly-income"
+    "page.other-monthly-income",
+    "page.check-your-answers",
+    "page.case-summary-submitted"
   ],
   "url": "/"
 }

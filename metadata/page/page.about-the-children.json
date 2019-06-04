@@ -11,7 +11,7 @@
           "_id": "page.about-the-children--fieldset--date.auto_name__3",
           "_type": "date",
           "hint": "For example, 31 3 1990",
-          "label": "**Date of birth**",
+          "label": "Date of birth",
           "name": "child_date_of_birth"
         },
         {
@@ -36,14 +36,14 @@
               "conditionalComponent": {
                 "_id": "page.about-the-children--fieldset--radios.auto_name__3--radio.auto_value__3--textarea.auto_name__3",
                 "_type": "textarea",
-                "label": "**Who will the child live with?**",
+                "label": "Who will the child live with?",
                 "name": "who_will_the_child_live_with"
               },
               "label": "Neither",
               "value": "neither"
             }
           ],
-          "legend": "**Who will the child live with after the final order?**",
+          "legend": "Who will the child live with after the final order?",
           "name": "who_the_child_will_live_with"
         }
       ],

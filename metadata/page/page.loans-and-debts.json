@@ -6,13 +6,13 @@
     {
       "_id": "page.loans-and-debts--number.auto_name__3",
       "_type": "number",
-      "label": "**Applicant**",
+      "label": "Applicant",
       "name": "applicant"
     },
     {
       "_id": "page.loans-and-debts--number.auto_name__3--2",
       "_type": "number",
-      "label": "**Respondent**",
+      "label": "Respondent",
       "name": "respondent"
     }
   ],

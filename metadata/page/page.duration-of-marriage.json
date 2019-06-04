@@ -6,13 +6,13 @@
     {
       "_id": "page.duration-of-marriage--number.auto_name__1",
       "_type": "number",
-      "label": "**Years**",
+      "label": "Years",
       "name": "Years"
     },
     {
       "_id": "page.duration-of-marriage--number.auto_name__1--2",
       "_type": "number",
-      "label": "**Months**",
+      "label": "Months",
       "name": "months"
     }
   ],

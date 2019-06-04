@@ -19,7 +19,7 @@
                 "conditionalComponent": {
                   "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__1--checkboxes--checkbox.auto_name__3--textarea.auto_name__5",
                   "_type": "textarea",
-                  "label": "**Provide more information**",
+                  "label": "Provide more information",
                   "name": "provide_more_information"
                 },
                 "label": "Reason X",
@@ -31,7 +31,7 @@
                 "conditionalComponent": {
                   "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__1--checkboxes--checkbox.auto_name__4--textarea.auto_name__3",
                   "_type": "textarea",
-                  "label": "**Provide more information**",
+                  "label": "Provide more information",
                   "name": "provide_more_information"
                 },
                 "label": "Reason Y",
@@ -73,7 +73,7 @@
                 "conditionalComponent": {
                   "_id": "page.reason-for-the-order--radios.auto_name__3--radio.auto_value__2--checkboxes--checkbox.auto_name__3--4--textarea.auto_name__3",
                   "_type": "textarea",
-                  "label": "**Provide reason**",
+                  "label": "Provide reason",
                   "name": "provide_reason"
                 },
                 "label": "Another reason",
