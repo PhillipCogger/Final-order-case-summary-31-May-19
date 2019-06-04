@@ -11,7 +11,7 @@
       "_type": "date",
       "hint": "For example, 31 3 1980",
       "label": "**Date of birth**",
-      "name": "date_of_birth"
+      "name": "applicant_date_of_birth"
     },
     {
       "_id": "page.about-the-applicant--content",
