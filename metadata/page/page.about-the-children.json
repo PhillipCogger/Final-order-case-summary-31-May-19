@@ -59,6 +59,7 @@
     }
   ],
   "heading": "About the children",
+  "sectionHeading": "Section 3",
   "show": {
     "identifier": "are_there_any_children_involved",
     "operator": "is",
