@@ -25,7 +25,10 @@
             "_type": "number",
             "hint": "For example, £22,250",
             "label": "Amount",
-            "name": "amount"
+            "name": "amount",
+            "validation": {
+              "required": false
+            }
           },
           "label": "Lump sum payments",
           "name": "lump_sum_payments"
@@ -45,7 +48,10 @@
                 "_type": "number",
                 "hint": "For example, £250.55",
                 "label": "How much do you pay?",
-                "name": "how_much_do_you_pay"
+                "name": "how_much_do_you_pay",
+                "validation": {
+                  "required": false
+                }
               },
               {
                 "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--radios.auto_name__2",
