@@ -12,7 +12,7 @@
           "_type": "date",
           "hint": "For example, 31 3 1990",
           "label": "**Date of birth**",
-          "name": "date_of_birth"
+          "name": "child_date_of_birth"
         },
         {
           "_id": "page.about-the-children--fieldset--radios.auto_name__3",
