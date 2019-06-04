@@ -68,6 +68,40 @@
       "_type": "number",
       "label": "**Respondent**",
       "name": "respondent"
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--content--2",
+      "_type": "content",
+      "html": "### Loans and other debts\r\nThese include things like personal loans or bank overdrafts, not those secured against property."
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--number.auto_name__3--2",
+      "_type": "number",
+      "label": "**Applicant**",
+      "name": "applicant"
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--number.auto_name__4--2",
+      "_type": "number",
+      "label": "**Respondent**",
+      "name": "respondent"
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--content--3",
+      "_type": "content",
+      "html": "### Pensions\r\nInclude the cash equivalent value of pension funds for the applicant and respondent."
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--number.auto_name__3--3",
+      "_type": "number",
+      "label": "**Applicant**",
+      "name": "applicant"
+    },
+    {
+      "_id": "page.money-and-property-before-final-order--number.auto_name__4--3",
+      "_type": "number",
+      "label": "**Respondent**",
+      "name": "respondent"
     }
   ],
   "heading": "Money and property before final order",
