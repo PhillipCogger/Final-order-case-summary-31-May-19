@@ -1,0 +1,44 @@
+{
+  "_id": "page.income-after-final-order",
+  "_type": "page.form",
+  "body": "Give the total monthly income after deductions for tax and NI contributions immediately before the final order was made. Include income from any investments.",
+  "components": [
+    {
+      "_id": "page.income-after-final-order--content",
+      "_type": "content",
+      "html": "### Monthly earned income (wages)"
+    },
+    {
+      "_id": "page.income-after-final-order--number.auto_name__3",
+      "_type": "number",
+      "label": "Applicant",
+      "name": "applicant"
+    },
+    {
+      "_id": "page.income-after-final-order--number.auto_name__4",
+      "_type": "number",
+      "label": "Respondent",
+      "name": "respondent"
+    },
+    {
+      "_id": "page.income-after-final-order--content--2",
+      "_type": "content",
+      "html": "### Income from investments\r\nGive the net monthly income from any investments."
+    },
+    {
+      "_id": "page.income-after-final-order--number.auto_name__3--2",
+      "_type": "number",
+      "label": "Applicant",
+      "name": "applicant"
+    },
+    {
+      "_id": "page.income-after-final-order--number.auto_name__4--2",
+      "_type": "number",
+      "label": "Respondent",
+      "name": "respondent"
+    }
+  ],
+  "heading": "Income",
+  "sectionHeading": "Section 16 (after final order)",
+  "url": "income-after-final-order"
+}

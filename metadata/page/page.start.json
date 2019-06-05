@@ -29,7 +29,8 @@
     "page.loans-and-debts-after-final-order",
     "page.pensions-after-final-order",
     "page.check-your-answers",
-    "page.case-summary-submitted"
+    "page.case-summary-submitted",
+    "page.income-after-final-order"
   ],
   "url": "/"
 }
