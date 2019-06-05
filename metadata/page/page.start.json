@@ -25,9 +25,9 @@
     "page.income",
     "page.benefits-including-child-support",
     "page.other-monthly-income",
+    "page.money-and-property-before-order",
     "page.check-your-answers",
-    "page.case-summary-submitted",
-    "page.money-and-property-before-order"
+    "page.case-summary-submitted"
   ],
   "url": "/"
 }

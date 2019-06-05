@@ -1,7 +1,52 @@
 {
   "_id": "page.money-and-property-before-order",
   "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.money-and-property-before-order--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "_id": "page.money-and-property-before-order--fieldset--number.auto_name__3",
+          "_type": "number",
+          "hint": "For example, £150,000",
+          "label": "Applicant",
+          "name": "applicant"
+        },
+        {
+          "_id": "page.money-and-property-before-order--fieldset--number.auto_name__3--2",
+          "_type": "number",
+          "hint": "For example, £150,000",
+          "label": "Respondent",
+          "name": "respondent"
+        }
+      ],
+      "legend": "Property (before mortgage)",
+      "model": "model_auto__3",
+      "repeatable": true,
+      "repeatableAdd": "Add another property",
+      "repeatableDelete": "Remove a property",
+      "repeatableMaximum": 10
+    },
+    {
+      "_id": "page.money-and-property-before-order--content",
+      "_type": "content",
+      "html": "### Savings and investments\r\nThese might include things like shares and money in bank accounts."
+    },
+    {
+      "_id": "page.money-and-property-before-order--number.auto_name__3",
+      "_type": "number",
+      "label": "Applicant",
+      "name": "applicant"
+    },
+    {
+      "_id": "page.money-and-property-before-order--number.auto_name__4",
+      "_type": "number",
+      "label": "Respondent",
+      "name": "respondent"
+    }
+  ],
   "heading": "Money and property",
   "sectionHeading": "Section 13 (after the final order)",
-  "url": "money-and-property-before-order"
+  "url": "money-and-property-after-final-order"
 }
