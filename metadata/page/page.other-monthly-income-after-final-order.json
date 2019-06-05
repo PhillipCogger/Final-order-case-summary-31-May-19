@@ -1,22 +1,22 @@
 {
-  "_id": "page.other-monthly-income",
+  "_id": "page.other-monthly-income-after-final-order",
   "_type": "page.form",
   "body": "Provide any other monthly income besides what you've already included.",
   "components": [
     {
-      "_id": "page.other-monthly-income--number.auto_name__3",
+      "_id": "page.other-monthly-income-after-final-order--number.auto_name__3",
       "_type": "number",
       "label": "Applicant",
       "name": "applicant"
     },
     {
-      "_id": "page.other-monthly-income--number.auto_name__4",
+      "_id": "page.other-monthly-income-after-final-order--number.auto_name__3--2",
       "_type": "number",
       "label": "Respondent",
       "name": "respondent"
     }
   ],
   "heading": "Other monthly income",
-  "sectionHeading": "Section 12 (before the final order)",
-  "url": "other-monthly-income-before-final-order"
+  "sectionHeading": "Section 18 (after the final order)",
+  "url": "other-monthly-income-after-final-order"
 }

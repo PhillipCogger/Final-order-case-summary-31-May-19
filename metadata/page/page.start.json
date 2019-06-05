@@ -29,9 +29,10 @@
     "page.loans-and-debts-after-final-order",
     "page.pensions-after-final-order",
     "page.income-after-final-order",
+    "page.benefits-after-final-order",
+    "page.other-monthly-income-after-final-order",
     "page.check-your-answers",
-    "page.case-summary-submitted",
-    "page.benefits-after-final-order"
+    "page.case-summary-submitted"
   ],
   "url": "/"
 }
