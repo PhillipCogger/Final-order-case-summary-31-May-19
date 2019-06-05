@@ -1,44 +1,44 @@
 {
-  "_id": "page.benefits-including-child-support",
+  "_id": "page.benefits-after-final-order",
   "_type": "page.form",
   "body": "Give the total amount for:\r\n\r\n* state benefits\r\n* Child Support\r\n* regular payments which are not part of Child Support",
   "components": [
     {
-      "_id": "page.benefits-including-child-support--content",
+      "_id": "page.benefits-after-final-order--content",
       "_type": "content",
       "html": "### Benefits"
     },
     {
-      "_id": "page.benefits-including-child-support--number.auto_name__3",
+      "_id": "page.benefits-after-final-order--number.auto_name__3",
       "_type": "number",
       "label": "Applicant",
       "name": "applicant"
     },
     {
-      "_id": "page.benefits-including-child-support--number.auto_name__4",
+      "_id": "page.benefits-after-final-order--number.auto_name__4",
       "_type": "number",
       "label": "Respondent",
       "name": "respondent"
     },
     {
-      "_id": "page.benefits-including-child-support--content--2",
+      "_id": "page.benefits-after-final-order--content--2",
       "_type": "content",
       "html": "### Child Support\r\nInclude regular payments which are not part of Child Support."
     },
     {
-      "_id": "page.benefits-including-child-support--number.auto_name__3--2",
+      "_id": "page.benefits-after-final-order--number.auto_name__3--2",
       "_type": "number",
       "label": "Applicant",
       "name": "applicant"
     },
     {
-      "_id": "page.benefits-including-child-support--number.auto_name__4--2",
+      "_id": "page.benefits-after-final-order--number.auto_name__4--2",
       "_type": "number",
       "label": "Respondent",
       "name": "respondent"
     }
   ],
   "heading": "Benefits (including Child Support)",
-  "sectionHeading": "Section 11 (before the final order)",
-  "url": "benefits-before-final-order"
+  "sectionHeading": "Section 17 (after the final order)",
+  "url": "benefits-after-final-order"
 }

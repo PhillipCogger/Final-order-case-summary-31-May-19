@@ -28,9 +28,10 @@
     "page.money-and-property-before-order",
     "page.loans-and-debts-after-final-order",
     "page.pensions-after-final-order",
+    "page.income-after-final-order",
     "page.check-your-answers",
     "page.case-summary-submitted",
-    "page.income-after-final-order"
+    "page.benefits-after-final-order"
   ],
   "url": "/"
 }
