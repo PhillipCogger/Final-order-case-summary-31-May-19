@@ -1,0 +1,22 @@
+{
+  "_id": "page.pensions-after-final-order",
+  "_type": "page.form",
+  "body": "Include the cash equivalent value of pension funds.",
+  "components": [
+    {
+      "_id": "page.pensions-after-final-order--number.auto_name__3",
+      "_type": "number",
+      "label": "Applicant",
+      "name": "applicant"
+    },
+    {
+      "_id": "page.pensions-after-final-order--number.auto_name__4",
+      "_type": "number",
+      "label": "Respondent",
+      "name": "respondent"
+    }
+  ],
+  "heading": "Pensions",
+  "sectionHeading": "Section 15 (before the final order)",
+  "url": "pensions-after-final-order"
+}
