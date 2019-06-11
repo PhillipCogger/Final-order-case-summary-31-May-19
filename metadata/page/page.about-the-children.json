@@ -51,7 +51,7 @@
         }
       ],
       "legend": "Child",
-      "model": "model_auto__1",
+      "namespace": "namespace_auto__1",
       "repeatable": true,
       "repeatableAdd": "Add a child",
       "repeatableDelete": "Remove a child",

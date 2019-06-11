@@ -22,7 +22,7 @@
         }
       ],
       "legend": "Property (before mortgage)",
-      "model": "model_auto__3",
+      "namespace": "namespace_auto__3",
       "repeatable": true,
       "repeatableAdd": "Add another property",
       "repeatableDelete": "Remove a property",
