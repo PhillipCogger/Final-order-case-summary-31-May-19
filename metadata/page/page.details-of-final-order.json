@@ -21,7 +21,7 @@
             "_type": "number",
             "hint": "For example, £22,250",
             "label": "Amount",
-            "name": "amount"
+            "name": "lump_sum_payments_amount"
           },
           "label": "Lump sum payments",
           "name": "lump_sum_payments"
@@ -41,7 +41,7 @@
                 "_type": "number",
                 "hint": "For example, £250.55",
                 "label": "How much do you pay?",
-                "name": "how_much_do_you_pay",
+                "name": "regular_payments_amount",
                 "validation": {
                   "required": true
                 }
@@ -55,7 +55,7 @@
                     "_type": "radio",
                     "hasDivider": false,
                     "label": "Weekly",
-                    "value": "Weekly"
+                    "value": "weekly"
                   },
                   {
                     "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--radios.auto_name__2--radio.auto_value__1--2",
@@ -82,21 +82,21 @@
                       "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--radios.auto_name__2--radio.auto_value__4--textarea.auto_name__1",
                       "_type": "textarea",
                       "label": "Say how often you make these payments.",
-                      "name": "how_often_payments_and_why"
+                      "name": "regular_payments_frequency_other"
                     },
                     "label": "Other",
                     "value": "other"
                   }
                 ],
                 "legend": "How often do you make these payments?",
-                "name": "auto_name__2"
+                "name": "regular_payments_frequency"
               },
               {
                 "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--textarea.auto_name__1",
                 "_type": "textarea",
                 "hint": "For example, the next 10 years to cover school fees for my children.",
                 "label": "How long will you make these payments for?",
-                "name": "auto_name__1",
+                "name": "regular_payments_duration",
                 "validation": {
                   "required": true
                 }
@@ -116,7 +116,7 @@
             "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__3--textarea.auto_name__3",
             "_type": "textarea",
             "label": "Provide details",
-            "name": "provide_details"
+            "name": "pension_sharing_agreement_details"
           },
           "label": "Pension sharing agreement",
           "name": "pension_sharing_agreement"
@@ -131,7 +131,7 @@
             "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__4--textarea.auto_name__3",
             "_type": "textarea",
             "label": "Provide details",
-            "name": "provide_details"
+            "name": "other_payments_details"
           },
           "label": "Other payments",
           "name": "other_payments"

@@ -35,7 +35,7 @@
         }
       ],
       "legend": "Property (before mortgage)",
-      "model": "model_auto__2",
+      "namespace": "namespace_auto__2",
       "repeatable": true,
       "repeatableAdd": "Add another property",
       "repeatableDelete": "Remove a property",
