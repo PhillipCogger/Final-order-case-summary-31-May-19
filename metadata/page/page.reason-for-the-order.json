@@ -37,7 +37,8 @@
                 "label": "Reason Y",
                 "name": "reason_y"
               }
-            ]
+            ],
+            "legend": "Reason for equal division of assets"
           },
           "label": "Equal division of assets",
           "value": "equal_division_of_assets"
@@ -79,7 +80,8 @@
                 "label": "Another reason",
                 "name": "another_reason"
               }
-            ]
+            ],
+            "legend": "Reason for unequal division of assets"
           },
           "label": "Unequal division of assets",
           "value": "unequal_division_of_assets"
