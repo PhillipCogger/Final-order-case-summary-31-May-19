@@ -21,7 +21,8 @@
             "_type": "number",
             "hint": "For example, £22,250",
             "label": "Amount",
-            "name": "lump_sum_payments_amount"
+            "name": "lump_sum_payments_amount",
+            "show": true
           },
           "label": "Lump sum payments",
           "name": "lump_sum_payments"
@@ -43,7 +44,7 @@
                 "label": "How much do you pay?",
                 "name": "regular_payments_amount",
                 "validation": {
-                  "required": true
+                  "required": false
                 }
               },
               {
