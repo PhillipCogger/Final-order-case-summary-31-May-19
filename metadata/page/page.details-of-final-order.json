@@ -22,7 +22,10 @@
             "hint": "For example, £22,250",
             "label": "Amount",
             "name": "lump_sum_payments_amount",
-            "show": true
+            "show": true,
+            "validation": {
+              "required": false
+            }
           },
           "label": "Lump sum payments",
           "name": "lump_sum_payments"
@@ -44,7 +47,7 @@
                 "label": "How much do you pay?",
                 "name": "regular_payments_amount",
                 "validation": {
-                  "required": true
+                  "required": false
                 }
               },
               {
@@ -83,14 +86,20 @@
                       "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--radios.auto_name__2--radio.auto_value__4--textarea.auto_name__1",
                       "_type": "textarea",
                       "label": "Say how often you make these payments.",
-                      "name": "regular_payments_frequency_other"
+                      "name": "regular_payments_frequency_other",
+                      "validation": {
+                        "required": false
+                      }
                     },
                     "label": "Other",
                     "value": "other"
                   }
                 ],
                 "legend": "How often do you make these payments?",
-                "name": "regular_payments_frequency"
+                "name": "regular_payments_frequency",
+                "validation": {
+                  "required": false
+                }
               },
               {
                 "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__2--group--textarea.auto_name__1",
@@ -99,7 +108,7 @@
                 "label": "How long will you make these payments for?",
                 "name": "regular_payments_duration",
                 "validation": {
-                  "required": true
+                  "required": false
                 }
               }
             ]
@@ -117,7 +126,10 @@
             "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__3--textarea.auto_name__3",
             "_type": "textarea",
             "label": "Provide details",
-            "name": "pension_sharing_agreement_details"
+            "name": "pension_sharing_agreement_details",
+            "validation": {
+              "required": false
+            }
           },
           "label": "Pension sharing agreement",
           "name": "pension_sharing_agreement"
@@ -132,7 +144,10 @@
             "_id": "page.details-of-final-order--checkboxes--checkbox.auto_name__4--textarea.auto_name__3",
             "_type": "textarea",
             "label": "Provide details",
-            "name": "other_payments_details"
+            "name": "other_payments_details",
+            "validation": {
+              "required": false
+            }
           },
           "label": "Other payments",
           "name": "other_payments"
