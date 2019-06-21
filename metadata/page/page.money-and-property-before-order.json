@@ -11,14 +11,14 @@
           "_type": "number",
           "hint": "For example, £150,000",
           "label": "Applicant",
-          "name": "applicant"
+          "name": "after_order_property_amount_applicant"
         },
         {
           "_id": "page.money-and-property-before-order--fieldset--number.auto_name__3--2",
           "_type": "number",
           "hint": "For example, £150,000",
           "label": "Respondent",
-          "name": "respondent"
+          "name": "after_order_property_amount_respondent"
         }
       ],
       "legend": "Property (before mortgage)",
@@ -37,13 +37,13 @@
       "_id": "page.money-and-property-before-order--number.auto_name__3",
       "_type": "number",
       "label": "Applicant",
-      "name": "applicant"
+      "name": "after_order_savings_and_investments_applicant"
     },
     {
       "_id": "page.money-and-property-before-order--number.auto_name__4",
       "_type": "number",
       "label": "Respondent",
-      "name": "respondent"
+      "name": "after_order_savings_and_investments_respondent"
     }
   ],
   "heading": "Money and property",

@@ -12,13 +12,13 @@
       "_id": "page.income-after-final-order--number.auto_name__3",
       "_type": "number",
       "label": "Applicant",
-      "name": "applicant"
+      "name": "after_order_monthly_income_applicant"
     },
     {
       "_id": "page.income-after-final-order--number.auto_name__4",
       "_type": "number",
       "label": "Respondent",
-      "name": "respondent"
+      "name": "after_order_monthly_income_respondent"
     },
     {
       "_id": "page.income-after-final-order--content--2",
@@ -29,13 +29,13 @@
       "_id": "page.income-after-final-order--number.auto_name__3--2",
       "_type": "number",
       "label": "Applicant",
-      "name": "applicant"
+      "name": "after_order_investment_income_amount_applicant"
     },
     {
       "_id": "page.income-after-final-order--number.auto_name__4--2",
       "_type": "number",
       "label": "Respondent",
-      "name": "respondent"
+      "name": "after_order_investment_income_amount_respondent"
     }
   ],
   "heading": "Income",

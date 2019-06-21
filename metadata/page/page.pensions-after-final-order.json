@@ -7,13 +7,13 @@
       "_id": "page.pensions-after-final-order--number.auto_name__3",
       "_type": "number",
       "label": "Applicant",
-      "name": "applicant"
+      "name": "after_order_pensions_amount_applicant"
     },
     {
       "_id": "page.pensions-after-final-order--number.auto_name__4",
       "_type": "number",
       "label": "Respondent",
-      "name": "respondent"
+      "name": "after_order_pensions_amount_respondent"
     }
   ],
   "heading": "Pensions",

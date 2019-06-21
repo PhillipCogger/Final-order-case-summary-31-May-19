@@ -7,13 +7,13 @@
       "_id": "page.other-monthly-income-after-final-order--number.auto_name__3",
       "_type": "number",
       "label": "Applicant",
-      "name": "applicant"
+      "name": "after_order_other_monthly_income_amount_applicant"
     },
     {
       "_id": "page.other-monthly-income-after-final-order--number.auto_name__3--2",
       "_type": "number",
       "label": "Respondent",
-      "name": "respondent"
+      "name": "after_order_other_monthly_income_amount_respondent"
     }
   ],
   "heading": "Other monthly income",
