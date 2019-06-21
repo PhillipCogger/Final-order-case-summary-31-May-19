@@ -37,7 +37,7 @@
                 "_id": "page.about-the-children--fieldset--radios.auto_name__3--radio.auto_value__3--textarea.auto_name__3",
                 "_type": "textarea",
                 "label": "Who will the child live with?",
-                "name": "residence_details",
+                "name": "child_residence_details",
                 "validation": {
                   "required": true
                 }
