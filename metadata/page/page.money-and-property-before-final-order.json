@@ -20,7 +20,7 @@
           "_type": "number",
           "hint": "For example, £150,000",
           "label": "Applicant",
-          "name": "property_amount_applicant"
+          "name": "before_order_property_amount_applicant"
         },
         {
           "$component": true,
@@ -31,7 +31,7 @@
           "_type": "number",
           "hint": "For example, £150,000",
           "label": "Respondent",
-          "name": "property_amount_respondent"
+          "name": "before_order_property_amount_respondent"
         }
       ],
       "legend": "Property (before mortgage)",
@@ -57,7 +57,7 @@
       "_id": "page.money-and-property-before-final-order--number.auto_name__3",
       "_type": "number",
       "label": "Applicant",
-      "name": "savings_and_investments_applicant"
+      "name": "before_order_savings_and_investments_applicant"
     },
     {
       "$component": true,
@@ -67,7 +67,7 @@
       "_id": "page.money-and-property-before-final-order--number.auto_name__4",
       "_type": "number",
       "label": "Respondent",
-      "name": "savings_and_investments_respondent"
+      "name": "before_order_savings_and_investments_respondent"
     }
   ],
   "heading": "Money and property",

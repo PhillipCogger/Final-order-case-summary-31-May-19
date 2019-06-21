@@ -12,13 +12,13 @@
       "_id": "page.income--number.auto_name__3",
       "_type": "number",
       "label": "Applicant",
-      "name": "applicant"
+      "name": "before_order_monthly_earned_income_applicant"
     },
     {
       "_id": "page.income--number.auto_name__4",
       "_type": "number",
       "label": "Respondent",
-      "name": "respondent"
+      "name": "before_order_monthly_earned_income_respondent"
     },
     {
       "_id": "page.income--content--2",
@@ -29,13 +29,13 @@
       "_id": "page.income--number.auto_name__3--2",
       "_type": "number",
       "label": "Applicant",
-      "name": "applicant"
+      "name": "before_order_investment_income_applicant"
     },
     {
       "_id": "page.income--number.auto_name__3--3",
       "_type": "number",
       "label": "Respondent",
-      "name": "respondent"
+      "name": "before_order_investment_income_respondent"
     }
   ],
   "heading": "Income",

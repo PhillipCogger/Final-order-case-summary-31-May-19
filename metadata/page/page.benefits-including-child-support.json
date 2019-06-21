@@ -12,13 +12,13 @@
       "_id": "page.benefits-including-child-support--number.auto_name__3",
       "_type": "number",
       "label": "Applicant",
-      "name": "applicant"
+      "name": "before_order_benefits_applicant"
     },
     {
       "_id": "page.benefits-including-child-support--number.auto_name__4",
       "_type": "number",
       "label": "Respondent",
-      "name": "respondent"
+      "name": "before_order_benefits_respondent"
     },
     {
       "_id": "page.benefits-including-child-support--content--2",
@@ -29,13 +29,13 @@
       "_id": "page.benefits-including-child-support--number.auto_name__3--2",
       "_type": "number",
       "label": "Applicant",
-      "name": "applicant"
+      "name": "before_order_child_support_applicant"
     },
     {
       "_id": "page.benefits-including-child-support--number.auto_name__4--2",
       "_type": "number",
       "label": "Respondent",
-      "name": "respondent"
+      "name": "before_order_child_support_respondent"
     }
   ],
   "heading": "Benefits (including Child Support)",
