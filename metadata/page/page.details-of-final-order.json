@@ -44,7 +44,7 @@
                 "label": "How much do you pay?",
                 "name": "regular_payments_amount",
                 "validation": {
-                  "required": false
+                  "required": true
                 }
               },
               {
